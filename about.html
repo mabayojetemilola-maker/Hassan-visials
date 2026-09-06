@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Hassan Visuals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="logo"><div class="logo-mark">HV</div><div>HASSAN <span>VISUALS</span></div></a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="about.html" class="active">About</a>
+          <a href="contact.html" class="btn-nav">Start a Project</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html" class="active">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn-nav">Start a Project</a>
+    <a href="https://wa.me/2348054724774" target="_blank" class="btn-nav" style="background:#25d366;">WhatsApp Us</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>About Hassan Visuals</h1>
+      <p>Creative design brand focused on helping businesses communicate professionally.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <div class="section-label">Who We Are</div>
+          <h2>Design that helps businesses look professional</h2>
+          <p>Hassan Visuals is a creative design brand focused on helping businesses, brands and individuals communicate professionally through graphic design, branding and websites.</p>
+          <p>We believe every business deserves clean, modern visuals that build trust and attract the right customers.</p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="check">✓</div>
+              <div><strong>My Approach</strong><br><span style="color:var(--gray-500);font-size:0.92rem;">I listen first, understand your goals, then create designs that match your brand and audience.</span></div>
+            </div>
+            <div class="about-feature">
+              <div class="check">✓</div>
+              <div><strong>What I Offer</strong><br><span style="color:var(--gray-500);font-size:0.92rem;">Logo design, brand identity, flyers, social media designs, business cards, company profiles and websites.</span></div>
+            </div>
+            <div class="about-feature">
+              <div class="check">✓</div>
+              <div><strong>Why Work With Me</strong><br><span style="color:var(--gray-500);font-size:0.92rem;">Clear communication, fast turnaround, affordable pricing and designs that look professional.</span></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="hassan-promo.png" alt="Hassan Visuals" style="border-radius:16px;box-shadow:var(--shadow-lg);width:100%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Let’s work together</h2>
+      <p>Ready to give your brand a professional look?</p>
+      <a href="contact.html" class="btn btn-primary">Start a Project</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><div class="logo-mark">HV</div><div>HASSAN <span style="color:#3b82f6">VISUALS</span></div></a>
+          <p>Creative Designs. Powerful Digital Presence.</p>
+        </div>
+        <div class="footer-col"><h4>Navigation</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul><li><a href="https://wa.me/2348054724774" target="_blank">0805 472 4774</a></li><li><a href="mailto:hassanmotionsedit@gmail.com">hassanmotionsedit@gmail.com</a></li></ul></div>
+        <div class="footer-col"><h4>Social</h4><ul><li>TikTok: @hinnmyer</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 Hassan Visuals. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+<script>/* INLINE HAMBURGER */
+(function(){var h=document.getElementById("hamburger"),m=document.getElementById("mobileMenu");if(h&&m){h.addEventListener("click",function(){h.classList.toggle("active");m.classList.toggle("open");document.body.style.overflow=m.classList.contains("open")?"hidden":"";});m.querySelectorAll("a").forEach(function(a){a.addEventListener("click",function(){h.classList.remove("active");m.classList.remove("open");document.body.style.overflow="";});});}})();
+</script>
+</body>
+</html>
