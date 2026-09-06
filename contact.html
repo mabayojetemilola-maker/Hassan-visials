@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Hassan Visuals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="logo"><div class="logo-mark">HV</div><div>HASSAN <span>VISUALS</span></div></a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="btn-nav">Start a Project</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="contact.html" class="btn-nav">Start a Project</a>
+    <a href="https://wa.me/2348054724774" target="_blank" class="btn-nav" style="background:#25d366;">WhatsApp Us</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Start a Project</h1>
+      <p>Tell us about your project. We’ll respond with a clear plan and quote.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info-card">
+          <h3>Hassan Visuals</h3>
+          <p>Hassan · Nigeria</p>
+
+          <div class="contact-item">
+            <div class="icon">📱</div>
+            <div>
+              <div class="label">WhatsApp</div>
+              <div class="value"><a href="https://wa.me/2348054724774" target="_blank">0805 472 4774</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">✉️</div>
+            <div>
+              <div class="label">Email</div>
+              <div class="value"><a href="mailto:hassanmotionsedit@gmail.com">hassanmotionsedit@gmail.com</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">🎵</div>
+            <div>
+              <div class="label">TikTok</div>
+              <div class="value">@hinnmyer</div>
+            </div>
+          </div>
+
+          <div style="margin-top:28px;display:flex;flex-direction:column;gap:10px;">
+            <a href="https://wa.me/2348054724774?text=Hello%20Hassan%20Visuals%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" class="btn btn-whatsapp" style="width:100%;">Chat on WhatsApp</a>
+            <a href="mailto:hassanmotionsedit@gmail.com?subject=Project%20Enquiry" class="btn" style="width:100%;background:rgba(255,255,255,0.15);color:white;">Send Email</a>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="contact-form">
+          <h3 style="margin-bottom:20px;font-size:1.2rem;">Project Enquiry</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name">
+              </div>
+              <div class="form-group">
+                <label for="business">Business / Company</label>
+                <input type="text" id="business" name="business" placeholder="Company name">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="whatsapp">WhatsApp Number *</label>
+                <input type="tel" id="whatsapp" name="whatsapp" required placeholder="e.g. 0805 472 4774">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="you@email.com">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Required *</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option>Logo Design</option>
+                <option>Graphic Design</option>
+                <option>Brand Identity</option>
+                <option>Flyers & Advertisements</option>
+                <option>Social Media Designs</option>
+                <option>Business Cards</option>
+                <option>Website Design</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Project Description *</label>
+              <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="deadline">Deadline</label>
+                <input type="text" id="deadline" name="deadline" placeholder="e.g. 2 weeks">
+              </div>
+              <div class="form-group">
+                <label for="budget">Budget (optional)</label>
+                <input type="text" id="budget" name="budget" placeholder="e.g. ₦15,000">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;margin-top:8px;">Send Project Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><div class="logo-mark">HV</div><div>HASSAN <span style="color:#3b82f6">VISUALS</span></div></a>
+          <p>Creative Designs. Powerful Digital Presence.</p>
+        </div>
+        <div class="footer-col"><h4>Navigation</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul><li><a href="https://wa.me/2348054724774" target="_blank">0805 472 4774</a></li><li><a href="mailto:hassanmotionsedit@gmail.com">hassanmotionsedit@gmail.com</a></li></ul></div>
+        <div class="footer-col"><h4>Social</h4><ul><li>TikTok: @hinnmyer</li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 Hassan Visuals. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
